@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody
 class HomeController {
 
   @RequestMapping('/')
-  @ResponseBody
-  def index() {
-    println 'Hello World!'
+  String index() {
+    'index'
   }
 
 }
